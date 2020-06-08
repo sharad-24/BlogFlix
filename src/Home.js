@@ -23,7 +23,7 @@ class Home extends Component{
         render(){
         return(
 
-<div className="Home">
+<div className="Home colour">
 
 <html lang="en" className="colour">
  <meta charset="UTF-8" />
@@ -52,7 +52,7 @@ class Home extends Component{
                             <ul>
                                 <li className=""><a href="#">Log in</a></li>
                                   <li><a href="/Home">Home</a></li>
-                                <li><a href="#">About</a></li>
+                                <li><a href="/Profile">About</a></li>
                                 <li><a href="#">Categories</a></li>
                                 <li><a href="/Blog" >BLOG</a></li>
                                 <li><a href="#">Contact</a></li>
@@ -271,8 +271,9 @@ class Home extends Component{
 <div className="grid-container5 colour3">
 
     <div className="grid-item15 grid-item5">Popular Categories</div>
-
-    <div className="grid-item5 grid33">
+    <div className="container">
+<div className="row">
+    <div className=".col-md-12 grid-item5 grid33">
       
 
       <img src={require('./img/sydney-best-GETTY.webp')} align="left"/>
@@ -295,8 +296,9 @@ class Home extends Component{
 
 
     </div>
-
-    <div className="grid-item25 grid-item5 grid33">
+    </div>
+<div className="row">
+    <div className=".col-md-12 grid-item25 grid-item5 grid33" align="center">
       
 
       <img src={require('./img/sydney-best-GETTY.webp')} align="left" />
@@ -319,8 +321,10 @@ class Home extends Component{
 
 
     </div>
+    </div>
+    <div className="row">
 
-    <div className="grid-item35 grid-item5 grid33">
+    <div className=".col-xs-9 grid-item35 grid-item5 grid33">
       
 
       <img src={require('./img/sydney-best-GETTY.webp')} align="left" />
@@ -342,6 +346,8 @@ class Home extends Component{
 
 
 
+    </div>
+    </div>
     </div>
 
   </div>
