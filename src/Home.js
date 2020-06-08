@@ -324,7 +324,7 @@ class Home extends Component{
     </div>
     <div className="row">
 
-    <div className=".col-xs-9 grid-item35 grid-item5 grid33">
+    <div className=".col-md-12 grid-item35 grid-item5 grid33">
       
 
       <img src={require('./img/sydney-best-GETTY.webp')} align="left" />
