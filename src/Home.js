@@ -8,7 +8,7 @@ import './css/owl.carousel.min.css';
 import './css/owl.theme.default.min.css';
 import './css/unslider.css';
 import './css/responsive.css';
-
+import nav from './nav';
 
 
 import "bootstrap/dist/css/bootstrap.css";
@@ -40,30 +40,24 @@ class Home extends Component{
     <link rel="stylesheet" href="responsive.css" />
 
 
+<section>
 
+  <div className="topnav" id="myTopnav">
+    
+                                <a href="#">Log in</a>
+                                <a href="/Home">Home</a>
+                                <a href="/Profile">About</a>
+                                <a href="#">Categories</a>
+                                <a href="/Blog" >BLOG</a>
+                                <a href="#">Contact</a>
+                                <a href="#" className="fa fa-search"></a>   
+                            
+  <a href="javascript:void(0);" className="icon" onclick="myFunction()">
+    <i className="fa fa-bars"></i>
+  </a>
+</div>
+</section>
 
-    <div className="wrapper">
-        <header className="header">
-            <div className="container">
-                <div className="row">
-                
-                    <div className="col-md-12">
-                        <div className="menu">
-                            <ul>
-                                <li className=""><a href="#">Log in</a></li>
-                                  <li><a href="/Home">Home</a></li>
-                                <li><a href="/Profile">About</a></li>
-                                <li><a href="#">Categories</a></li>
-                                <li><a href="/Blog" >BLOG</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#"><i className="fa fa-search"></i></a></li>    
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        </div>
         
 <Carousel>
   <Carousel.Item>
@@ -111,7 +105,7 @@ class Home extends Component{
     <div className="grid-item1">FEATURED</div>
     <div className="grid-item colour2">
 
-        <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="200px" width="150px" align="center" />
+        <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} align="center" />
           
         <h4>Lorem&nbsp;ipsum</h4>
 
@@ -420,8 +414,6 @@ class Home extends Component{
 
 
 
-
-<hr className=".col-xs-6 mx-auto pt-0.9 footer1"/>
 
 
 <section>
