@@ -8,10 +8,7 @@ import './css/owl.carousel.min.css';
 import './css/owl.theme.default.min.css';
 import './css/unslider.css';
 import './css/responsive.css';
-import {Bootstrap, Grid, Row, Col} from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.css';
-import { useMediaQuery } from 'react-responsive'
-
+import nav from './nav';
 
 
 import "bootstrap/dist/css/bootstrap.css";
@@ -19,7 +16,6 @@ import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 import 'react-multi-carousel/lib/styles.css';
 
 import {Bumbotron, Button, Carousel } from 'react-bootstrap'
-import MetaTags from 'react-meta-tags';
 class Profile extends Component{
 
         
@@ -33,7 +29,17 @@ class Profile extends Component{
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Front page</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
    
@@ -46,28 +52,24 @@ class Profile extends Component{
 
 
 <body className="colour">
-    <div className="wrapper">
-        <header className="header">
-            <div className="container">
-                <div className="row">
-                
-                    <div className="col-md-12">
-                        <div className="menu">
-                            <ul>
-                                <li className=""><a href="#">Log in</a></li>
-                                  <li><a href="/Home">Home</a></li>
-                                <li><a href="/Profile">About</a></li>
-                                <li><a href="#">Categories</a></li>
-                                <li><a href="/Blog" >BLOG</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#"><i className="fa fa-search"></i></a></li>    
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        </div>
+<section>
+
+  <div className="topnav" id="myTopnav">
+    
+                                <a href="#">Log in</a>
+                                <a href="/Home">Home</a>
+                                <a href="/Profile">About</a>
+                                <a href="#">Categories</a>
+                                <a href="/Blog" >BLOG</a>
+                                <a href="#">Contact</a>
+                                <a href="#" className="fa fa-search"></a>   
+                            
+  <a href="javascript:void(0);" className="icon" onclick="myFunction()">
+    <i className="fa fa-bars"></i>
+  </a>
+</div>
+</section>
+
         
 <div className="left-profile">
     <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.png')} className="img1-profile" />
@@ -93,6 +95,9 @@ class Profile extends Component{
 
         <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.png')} align="right" className="img2-profile" />
         <button className="b1-profile">Category</button>
+        <br />
+        <br />
+
         <h6>Lorem ipsum dolor sit amet, consectetur adipisicing</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -105,6 +110,8 @@ class Profile extends Component{
         
         <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.png')} align="right" className="img2-profile" />
         <button className="b1-profile">Category</button>
+          <br />
+        <br />
         <h6>Lorem ipsum dolor sit amet, consectetur adipisicing</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -117,6 +124,8 @@ class Profile extends Component{
       
         <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.png')} align="right" className="img2-profile" />
         <button className="b1-profile">Category</button>
+          <br />
+        <br />
         <h6>Lorem ipsum dolor sit amet, consectetur adipisicing</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -130,12 +139,38 @@ class Profile extends Component{
 
 
 <section>
-  <br />
+
     <div className="container">
        
 
 
-      <div className="row align-items-center footer2">
+      <div className="row footer2">
+    
+  <div  className= "col-md-6 footer5">
+  
+  
+ 
+
+</div>
+
+   
+</div>
+</div>
+</section>
+
+
+
+
+<hr className=".col-xs-6 mx-auto pt-0.9 footer1"/>
+<br />
+<br/>
+
+<section>
+ <div className="container">
+       
+
+
+      <div className="row footer2">
     
   <div  className= "col-md-6 footer5">
     <h className="footer3 footer6">
@@ -154,15 +189,6 @@ class Profile extends Component{
    
 </div>
 </div>
-</section>
-
-
-
-
-<hr className=".col-xs-6 mx-auto pt-0.9 footer1"/>
-
-
-<section>
   <div className="container footer4">
        
 

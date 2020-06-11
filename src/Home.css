@@ -200,7 +200,15 @@ input[type="text"]{
  }
 
 
-/*blog section*/
+table {
+  border-collapse: collapse;
+
+  width: 100%;
+ 
+}
+.test2{
+overflow-x:auto;
+}
 
 
 .colour2{
@@ -418,10 +426,7 @@ position: relative;
 
 /*profile area*/
 
-*{
-      box-sizing: border-box;
-      font-family: Open Sans;
-    }
+
 
    
     h5, h6, p{
@@ -450,20 +455,21 @@ position: relative;
 
     .right-profile{
 
-      float: left;
+      float: right;
       width: 65%;
       margin: 10px;
       padding: 10px;
     }
 
     .b1-profile{
-      padding: 0.50% 0.75%;
+      float: left;
+     
       background-color: #07a399;
       color: #01475e;
       font-family: Open Sans;
       font-weight: bold;
       border: none;
-      text-align: center;
+      text-align: left;
       font-size: 16px;
 
     }
@@ -506,10 +512,10 @@ position: relative;
     }
     .img2-profile{
 
-      height:100px;
+      height:120px;
       width: 120px;
     }
-    .left-profile p8{
+    .left-profile p{
 
       text-align: justify;
     }
@@ -562,7 +568,7 @@ position: relative;
         h1{
 
             color: #13a7d4;
-            text-align: left;
+            text-align: center;
             text-transform: uppercase;
 
         }
@@ -823,3 +829,89 @@ margin-left: 90px;
 #mobilehdn{
   display: none;
 }
+
+
+/*Edit section*/
+
+.editmain{
+
+    background-color: #FCF9F2;
+    color: #184654;
+    font-family: Open Sans;
+  }
+  .left-edit{
+
+    width: 25%;
+    float: left;
+    margin: 2%;
+    padding: 1% 1% .25%;
+
+  }
+  .right-edit{
+
+    width: 60%;
+    float: right;
+    margin: 2%;
+    padding: 1%;
+
+  }
+  .edit4{
+
+    font-family: Open Sans;
+    font-size: 34px;
+  }
+   .edit5{
+
+    font-family: Open Sans;
+    font-size: 15px;
+  }
+  hr.hr1-edit{
+
+    border-bottom: #2e87c7;
+    margin-top: 1.5%;
+  
+  }
+  hr.hr2-edit{
+
+    border-bottom: #2e87c7;
+    margin-top: 2%;
+
+  }
+  .grid-container2-edit{
+
+    grid-template-rows: auto auto auto auto;
+    float: left;
+  }
+  .grid-item2-edit{
+    color: #184654;
+  }
+  .img1-edit{
+
+    border-radius: 100px;
+    display: inline-block;
+    position: relative;
+    left: 25%;
+    height: 100px;
+    width: 100px;
+  }
+  i.fa-pencil-edit{
+    float: right;
+  }
+  .grid-item2-edit.i{
+
+    border-bottom: 0;
+    margin: 2px;
+
+  }
+
+  .edit1{
+    text-align: center;
+  }
+  .edit2{
+    font-size: 24px;
+  }
+  .edit3{
+    font-size:48px; 
+    float: right;
+    margin-top: 60px;
+  }

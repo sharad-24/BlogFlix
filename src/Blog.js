@@ -27,31 +27,26 @@ class Blog extends Component{
 
 
 
- 
-    <div className="wrapper">
-        <header className="header">
-            <div className="container">
-                <div className="row">
-                
-                    <div className="col-md-12">
-                        <div className="menu">
-                            <ul>
-                                <li className=""><a href="#">Log in</a></li>
-                                  <li><a href="/Home">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Categories</a></li>
-                                <li><a href="/Blog" >BLOG</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#"><i className="fa fa-search"></i></a></li>    
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        </div>
-        
-         <section className="bg-text-area">
+<section>
+
+  <div className="topnav" id="myTopnav">
+    
+                                <a href="#">Log in</a>
+                                <a href="/Home">Home</a>
+                                <a href="/Profile">About</a>
+                                <a href="#">Categories</a>
+                                <a href="/Blog" >BLOG</a>
+                                <a href="#">Contact</a>
+                                <a href="#" className="fa fa-search"></a>   
+                            
+  <a href="javascript:void(0);" className="icon" onclick="myFunction()">
+    <i className="fa fa-bars"></i>
+  </a>
+</div>
+</section>
+        <section className="test2">
+        <table>
+         <div className="bg-text-area">
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
@@ -62,11 +57,14 @@ class Blog extends Component{
                     </div>
                 </div>
             </div>
+        </div>
+        </table>
         </section>
 
      
 
-<section className="main">
+<section className="main test2">
+<table>
 
   <h1>Lorem Ipsum Dolor</h1>
   <p> By lorem</p>
@@ -176,7 +174,7 @@ class Blog extends Component{
       <figcaption>Lorem ipsum dolor</figcaption>
   </figure>
 
-  <p className="content content22">
+  <p className="content-blog content22-blog">
     
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -195,10 +193,11 @@ class Blog extends Component{
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 
   </p>
-
+</table>
 </section>
 
-  <section className="aside">
+  <section className="aside test2">
+  <table>
     
     <div className="aside1-blog">
       
@@ -249,7 +248,7 @@ class Blog extends Component{
 
     </div>
 
-
+</table>
 
 
 
@@ -262,7 +261,6 @@ class Blog extends Component{
 
 
 
-<hr className=".col-xs-6 mx-auto pt-0.9 footer1"/>
 
 <section className="sharad-blogg">
 

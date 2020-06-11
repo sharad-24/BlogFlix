@@ -8,7 +8,7 @@ import './css/owl.carousel.min.css';
 import './css/owl.theme.default.min.css';
 import './css/unslider.css';
 import './css/responsive.css';
-import nav from './nav';
+import Sharad from './Nav';
 
 
 import "bootstrap/dist/css/bootstrap.css";
@@ -44,7 +44,7 @@ class Home extends Component{
 
   <div className="topnav" id="myTopnav">
     
-                                <a href="#">Log in</a>
+                                <a href="/Edit">Log in</a>
                                 <a href="/Home">Home</a>
                                 <a href="/Profile">About</a>
                                 <a href="#">Categories</a>
@@ -52,7 +52,7 @@ class Home extends Component{
                                 <a href="#">Contact</a>
                                 <a href="#" className="fa fa-search"></a>   
                             
-  <a href="javascript:void(0);" className="icon" onclick="myFunction()">
+  <a href="javascript:void(0);" className="icon" onclick="Sharad()">
     <i className="fa fa-bars"></i>
   </a>
 </div>
@@ -99,13 +99,14 @@ class Home extends Component{
 <br />
 <br />
 
-<section>
+<section className="test2">
+<table>
 
 <div className="grid-container_featured">
     <div className="grid-item1">FEATURED</div>
     <div className="grid-item colour2">
 
-        <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} align="center" />
+        <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')}height="200px" width="150px" align="center" />
           
         <h4>Lorem&nbsp;ipsum</h4>
 
@@ -252,7 +253,7 @@ class Home extends Component{
   </div>
 
 </div>
-
+</table>
 
 
 
@@ -260,8 +261,8 @@ class Home extends Component{
 </section>
 
 
-<section>
-
+<section className="test2">
+<table>
 <div className="grid-container5 colour3">
 
     <div className="grid-item15 grid-item5">Popular Categories</div>
@@ -345,6 +346,7 @@ class Home extends Component{
     </div>
 
   </div>
+  </table>
 </section>
 
 <section className="joinus">
