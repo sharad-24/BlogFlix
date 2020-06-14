@@ -8,8 +8,8 @@ import './css/owl.carousel.min.css';
 import './css/owl.theme.default.min.css';
 import './css/unslider.css';
 import './css/responsive.css';
-import nav from './nav';
 
+import Sharad from './Nav';
 
 import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
@@ -42,19 +42,27 @@ class Edit extends Component{
 
 <section>
 
-  <div className="topnav" id="myTopnav">
-    
-                                <a href="#">Log in</a>
-                                <a href="/Home">Home</a>
-                                <a href="/Profile">About</a>
-                                <a href="#">Categories</a>
-                                <a href="/Blog" >BLOG</a>
+ <div className="topnav">
+
+  
+  <div className="topnav-centered">
+    <a href="/Edit" className="active">Log In</a>
+  </div>
+  
+ 
+   <a href="/Home">Home</a>
+   <a href="/Profile">About</a>
+   <a href="#">Categories</a>
+ 
+  <div className="topnav-right">
+   
+     <a href="/Blog" >BLOG</a>
                                 <a href="#">Contact</a>
-                                <a href="#" className="fa fa-search"></a>   
-                            
-  <a href="javascript:void(0);" className="icon" onclick="myFunction()">
-    <i className="fa fa-bars"></i>
-  </a>
+                                <a href="#" className="fa fa-search"></a> 
+
+  </div>
+   <a href="javascript:void(0);" className="icon" onclick="Sharad()"><i className="fa fa-bars"></i></a>
+  
 </div>
 </section>
 
@@ -68,7 +76,7 @@ class Edit extends Component{
  
 <div className="left-edit">
 
-    <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.png')} className="img1-edit" />
+    <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.jfif')} className="img1-edit" />
     <h3 className="edit1">NAME <i className="fa fa-pencil-edit"></i></h3>
     <hr className="hr2-edit" />
 

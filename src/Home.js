@@ -42,19 +42,26 @@ class Home extends Component{
 
 <section>
 
-  <div className="topnav" id="myTopnav">
-    
-                                <a href="/Edit">Log in</a>
-                                <a href="/Home">Home</a>
-                                <a href="/Profile">About</a>
-                                <a href="#">Categories</a>
-                                <a href="/Blog" >BLOG</a>
+ <div className="topnav">
+
+  
+  <div className="topnav-centered">
+    <a href="/Home" className="active">Home</a>
+  </div>
+  
+ 
+   <a href="/Edit">Log in</a>
+   <a href="/Profile">About</a>
+   <a href="#">Categories</a>
+ 
+  <div className="topnav-right">
+   
+     <a href="/Blog" >BLOG</a>
                                 <a href="#">Contact</a>
-                                <a href="#" className="fa fa-search"></a>   
-                            
-  <a href="javascript:void(0);" className="icon" onclick="Sharad()">
-    <i className="fa fa-bars"></i>
-  </a>
+                                <a href="#" className="fa fa-search"></a> 
+                                 
+  </div>
+  <a href="javascript:void(0);" className="icon" onclick="Sharad()"><i className="fa fa-bars"></i></a>
 </div>
 </section>
 
@@ -106,8 +113,14 @@ class Home extends Component{
     <div className="grid-item1">FEATURED</div>
     <div className="grid-item colour2">
 
-        <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')}height="200px" width="150px" align="center" />
-          
+        <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')}height="200px" width="200px" align="center" />
+        <br />
+        <br />
+        <button className="button7">
+        <a href="/Blog" style={{color: "#FFFFFF"}} >Subscribe</a>
+</button>
+           <br />
+        <br />
         <h4>Lorem&nbsp;ipsum</h4>
 
         <p>
@@ -115,7 +128,7 @@ class Home extends Component{
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmor
 
         </p>
-<button>
+<button className="button6">
         <a href="/Blog" style={{color: "#FFFFFF"}} >Start</a>
 </button>
 
@@ -123,17 +136,24 @@ class Home extends Component{
     <div className="grid-item colour2">
 
 
-        <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="200px" width="150px" align="center" />
+        <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="200px" width="200px" align="center" />
           
-          <h4>Lorem&nbsp;ipsum</h4>
+         <br />
+        <br />
+        <button className="button7">
+        <a href="/Blog" style={{color: "#FFFFFF"}} >Subscribe</a>
+</button>
+           <br />
+        <br />
+        <h4>Lorem&nbsp;ipsum</h4>
 
-          <p>
+        <p>
           
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmor
 
-          </p>
+        </p>
 
-         <button>
+         <button className="button6">
         <a href="/Blog" style={{color: "#FFFFFF"}} >Start</a>
 </button>
 
@@ -141,52 +161,73 @@ class Home extends Component{
     </div>
     <div className=" grid-item grid-item3 colour2">
 
-        <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="550px" width="150px" align="center" />
+        <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="550px" width="220px" align="center" />
           
-          <h4>Lorem&nbsp;ipsum</h4>
+               <br />
+        <br />
+        <button className="button7">
+        <a href="/Blog" style={{color: "#FFFFFF"}} >Subscribe</a>
+</button>
+           <br />
+        <br />
+        <h4>Lorem&nbsp;ipsum</h4>
 
-          <p>
+        <p>
           
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmor
 
-          </p>
+        </p>
 
-          <button>
+          <button className="button6">
         <a href="/Blog" style={{color: "#FFFFFF"}} >Start</a>
 </button>
 
     </div>
     <div className="grid-item colour2">
 
-        <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="200px" width="150px" align="center" />
+        <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="200px" width="200px" align="center" />
 
           
-          <h4>Lorem&nbsp;ipsum</h4>
+               <br />
+        <br />
+        <button className="button7">
+        <a href="/Blog" style={{color: "#FFFFFF"}} >Subscribe</a>
+</button>
+           <br />
+        <br />
+        <h4>Lorem&nbsp;ipsum</h4>
 
-          <p>
+        <p>
           
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmor
 
-          </p>
+        </p>
 
-   <button>
+   <button className="button6">
         <a href="/Blog" style={{color: "#FFFFFF"}} >Start</a>
 </button>
 
     </div>
     <div className="grid-item colour2">
       
-        <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="200px" width="150px" align="center" />
+        <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="200px" width="200px" align="center" />
           
-          <h4>Lorem&nbsp;ipsum</h4>
+               <br />
+        <br />
+        <button className="button7">
+        <a href="/Blog" style={{color: "#FFFFFF"}} >Subscribe</a>
+</button>
+           <br />
+        <br />
+        <h4>Lorem&nbsp;ipsum</h4>
 
-          <p>
+        <p>
           
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmor
 
-          </p>
+        </p>
 
-         <button>
+         <button className="button6">
         <a href="/Blog" style={{color: "#FFFFFF"}} >Start</a>
 </button>
 
@@ -195,10 +236,10 @@ class Home extends Component{
 
 
 
-<div className="grid-container_latest">
+<div className="grid-container_latest colour">
   <div className="grid-item_latest1">LATEST</div>
 
-  <div className="grid-item_latest colour2">
+  <div className="grid-item_latest colour">
 
     <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="70px" width="150px" align="center" />
     
@@ -211,7 +252,7 @@ class Home extends Component{
           </p>
 
   </div>
-  <div className="grid-item_latest colour2">
+  <div className="grid-item_latest colour">
 
     <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="70px" width="150px" align="center" />
     
@@ -224,7 +265,7 @@ class Home extends Component{
           </p>
 
   </div>
-  <div className="grid-item_latest colour2">
+  <div className="grid-item_latest colour">
 
     <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="70px" width="150px" align="center" />
 
@@ -237,7 +278,7 @@ class Home extends Component{
     
 
   </div>
-  <div className="grid-item_latest colour2">
+  <div className="grid-item_latest colour">
 
     <img src={require('./img/4b18374e62fe836fd9d8c5e899a49e60.jpg')} height="70px" width="150px" align="center" />
 
@@ -259,6 +300,7 @@ class Home extends Component{
 
 
 </section>
+
 
 
 <section className="test2">
@@ -351,20 +393,18 @@ class Home extends Component{
 
 <section className="joinus">
     <div className="row cont h-100">
-        <div className="col-md-7 my-auto">
-            <p className="headin">Join Our Community</p>
-            <p className="head_cont">
-                Lorem ipsum dolor sit amet, consectetur adipiscing  elit,
-                sed do eiusmod tempor incididunt ut labore et  dolore magna aliqua. 
-                Ut enim ad minim veniam, quis  nostrud exercitation ullamco laboris nisi ut 
-                aliquip ex  ea commodo consequat.
-            </p>
+        <div className="col-md-8 my-auto">
+       <p className="headin2" >BECOME NEWSLETTER</p>
+            <p className="headin">Join Our Community Today and Stay Updated!!</p>
+            <p className="headin2" >receive our newsletter now</p>
+            <button className="join" type="button">Join</button>
+           
         </div>
         <div className="col-md-4 my-auto">
             <form className="Login">
                 <input className="box1" type="text" name="" placeholder="Name" /><br />
                 <input className="box1" type="text" name="" placeholder="Email" /><br />
-                <button className="join" type="button">Join</button>
+                
             </form>
         </div>
     </div>
@@ -374,7 +414,7 @@ class Home extends Component{
  <div className="Crible_block">
             
             <div className="row">
-                <div className="col-md-4 pad_0 colour">
+                <div className="col-md-4 colour">
                                 <img className="image2" src={require('./img/4-512.png')} />
                     <p className="Crible_para">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -383,7 +423,7 @@ class Home extends Component{
                    <h1 className="Crible_head">  <img className="image" src={require('./img/circle-cropped.png')} /> Lorem ipsum
                    </h1>
                 </div>
-                <div className="col-md-4 pad_0 colour">
+                <div className="col-md-4 colour">
                     
                    <img className="image2" src={require('./img/4-512.png')} />
                     <p className="Crible_para">
@@ -393,7 +433,7 @@ class Home extends Component{
                      <h1 className="Crible_head">  <img className="image" src={require('./img/circle-cropped.png')} /> Lorem ipsum
                      </h1>
                 </div>
-                <div className="col-md-4 pad_0 colour">
+                <div className="col-md-4 colour">
                     <img className="image2" src={require('./img/4-512.png')} />
                     
                     <p className="Crible_para">
@@ -414,8 +454,10 @@ class Home extends Component{
 
 
 
+<br />
 
-
+<hr className=".col-xs-6 mx-auto pt-0.9 footer1"/>
+<br />
 
 
 <section>
@@ -424,10 +466,10 @@ class Home extends Component{
        
 
 
-      <div className="row align-items-center footer2">
+      <div className="row align-items-center footer3">
     
   <div  className= "col-md-6 footer5">
-    <h className="footer3 footer6">
+    <h className="footer6">
      Terms of Use  |  Privacy Policy  |  Cookies
    </h>
   
@@ -444,14 +486,15 @@ class Home extends Component{
 </div>
 </div>
 </section>
+<br />
 
 <section>
-  <div className="container footer4">
+  <div className="container">
        
 
 
-        <div className="row footer3">
-    <div className="footer5">
+        <div className="row  align-items-center footer3">
+    <div className=" col-md-12 footer5">
     <h className="footer6">
      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur . Excepteur sint occaecat cupidatat non  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
    </h>

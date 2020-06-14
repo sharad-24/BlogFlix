@@ -8,7 +8,8 @@ import './css/owl.carousel.min.css';
 import './css/owl.theme.default.min.css';
 import './css/unslider.css';
 import './css/responsive.css';
-import nav from './nav';
+import Sharad from './Nav';
+
 
 
 import "bootstrap/dist/css/bootstrap.css";
@@ -54,27 +55,34 @@ class Profile extends Component{
 <body className="colour">
 <section>
 
-  <div className="topnav" id="myTopnav">
-    
-                                <a href="#">Log in</a>
-                                <a href="/Home">Home</a>
-                                <a href="/Profile">About</a>
-                                <a href="#">Categories</a>
-                                <a href="/Blog" >BLOG</a>
-                                <a href="#">Contact</a>
-                                <a href="#" className="fa fa-search"></a>   
-                            
-  <a href="javascript:void(0);" className="icon" onclick="myFunction()">
-    <i className="fa fa-bars"></i>
-  </a>
-</div>
-</section>
+ <div className="topnav">
 
+  
+  <div className="topnav-centered">
+    <a href="/Profile" className="active">About</a>
+  </div>
+  
+ 
+   <a href="/Edit">Log in</a>
+   <a href="/Home">Home</a>
+   <a href="#">Categories</a>
+ 
+  <div className="topnav-right">
+   
+     <a href="/Blog" >BLOG</a>
+                                <a href="#">Contact</a>
+                                <a href="#" className="fa fa-search"></a> 
+                                <a href="javascript:void(0);" className="icon" onclick="Sharad()"><i className="fa fa-bars"></i></a>
+  </div>
+  
+</div>
+
+</section>
         
 <div className="left-profile">
-    <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.png')} className="img1-profile" />
+    <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.jfif')} className="img1-profile" />
     <h5 className="sharad-profile">LOREM IPSUM</h5>
-    <p>
+    <p className="text-p">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -82,18 +90,19 @@ class Profile extends Component{
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
-    <i className="fa icons sharad2-profile">&#xf16d;</i>
-    <i className="fa icons sharad2-profile">&#xf08c;</i>
-    <i className="fa icons sharad2-profile">&#xf09b;</i>
-    <i className="fa icons sharad2-profile">&#xf082;</i>
+  <i className="fa fa-instagram sharad2-profile"></i>
+<i className="fa fa-linkedin sharad2-profile"></i>
+<i className="fa fa-github sharad2-profile"></i>
+<i className="fa fa-facebook sharad2-profile"></i>
+
   </div>
 
   <div className="right-profile">
-    <h5 className="sharad-profile">MY BLOGS</h5>
+    <h5 className="sharad3-profile">MY BLOGS</h5>
     <div className="grid-container-profile">
       <div className="grid-item-profile">
 
-        <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.png')} align="right" className="img2-profile" />
+        <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.jfif')} align="right" className="img2-profile" />
         <button className="b1-profile">Category</button>
         <br />
         <br />
@@ -108,7 +117,7 @@ class Profile extends Component{
 
       <div className="grid-item-profile">
         
-        <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.png')} align="right" className="img2-profile" />
+        <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.jfif')} align="right" className="img2-profile" />
         <button className="b1-profile">Category</button>
           <br />
         <br />
@@ -122,7 +131,7 @@ class Profile extends Component{
 
       <div className="grid-item-profile">
       
-        <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.png')} align="right" className="img2-profile" />
+        <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.jfif')} align="right" className="img2-profile" />
         <button className="b1-profile">Category</button>
           <br />
         <br />

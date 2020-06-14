@@ -9,7 +9,7 @@ import './css/owl.theme.default.min.css';
 import './css/unslider.css';
 import './css/responsive.css';
 
-
+import Sharad from './Nav';
 
 
 
@@ -25,23 +25,28 @@ class Blog extends Component{
 
 
 
-
-
 <section>
 
-  <div className="topnav" id="myTopnav">
-    
-                                <a href="#">Log in</a>
-                                <a href="/Home">Home</a>
-                                <a href="/Profile">About</a>
-                                <a href="#">Categories</a>
-                                <a href="/Blog" >BLOG</a>
+ <div className="topnav">
+
+  
+  <div className="topnav-centered">
+    <a href="/Blog" className="active">Blog</a>
+  </div>
+  
+ 
+   <a href="/Edit">Log in</a>
+   <a href="/Profile">About</a>
+   <a href="#">Categories</a>
+ 
+  <div className="topnav-right">
+   
+     <a href="/Home" >HOME</a>
                                 <a href="#">Contact</a>
-                                <a href="#" className="fa fa-search"></a>   
-                            
-  <a href="javascript:void(0);" className="icon" onclick="myFunction()">
-    <i className="fa fa-bars"></i>
-  </a>
+                                <a href="#" className="fa fa-search"></a> 
+                                <a href="javascript:void(0);" className="icon" onclick="Sharad()"><i className="fa fa-bars"></i></a>
+  </div>
+  
 </div>
 </section>
         <section className="test2">
