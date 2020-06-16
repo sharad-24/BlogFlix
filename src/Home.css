@@ -82,7 +82,7 @@ border-radius: 100%;
 }
 
 .footer1{
-    background-color:  grey; 
+    background-color:  #004066; 
     width: 85%; 
     margin: 0px !important;
 }
@@ -498,7 +498,7 @@ position: relative;
 
       font-family: Open Sans;
       margin-top: 15px;
-      margin-left: 20px!important;
+      margin-left: 0px!important;
       color: #004066 !important;
       font-weight: bold;
       text-align: justify !important;
@@ -506,8 +506,8 @@ position: relative;
     
     .left-profile{
 
-      float: left;
-      width: 30%;
+      
+ 
       margin: 10px;
       padding: 10px;
 
@@ -515,8 +515,8 @@ position: relative;
 
     .right-profile{
 
-      float: right;
-      width: 65%;
+     
+   
       margin: 10px;
       padding: 10px;
     }
@@ -563,19 +563,24 @@ position: relative;
       margin: 10px;
       box-shadow: 10px 5px 10px #aaaaaa;
     }
+    .profile{
+      position: relative;
+            margin-top: 20px; 
+    
+    }
     .img1-profile{
 
       border-radius: 100px;
-      position: relative;
-      margin-top: 20px; 
-    margin-left: 100px; 
+      margin-left: 20%;
+
       height: 200px;
       width: 200px;
     }
     .img2-profile{
 
-      height:120px;
+      height:110px;
       width: 120px;
+
     }
     .left-profile p{
 
@@ -599,7 +604,7 @@ text-transform: uppercase;
 }
 .sharad-profile{
   text-align: center;
-  margin-left: 30px;
+  margin-right: 0px!important;
   font-size: 25px;
   color: #004066;
 font-weight: bold;
@@ -1025,16 +1030,14 @@ text-transform: uppercase
   }
   .left-edit{
 
-    width: 25%;
-    float: left;
+  
     margin: 2%;
     padding: 1% 1% .25%;
 
   }
   .right-edit{
 
-    width: 60%;
-    float: right;
+    
     margin: 2%;
     padding: 1%;
 
@@ -1043,22 +1046,29 @@ text-transform: uppercase
 
     font-family: Open Sans;
     font-size: 34px;
+     color: #004066;
+font-weight: bold;
+text-transform: uppercase;
+    position: relative;
+    margin-top: 40px; 
   }
    .edit5{
 
     font-family: Open Sans;
     font-size: 15px;
+    color: #004066;
   }
   hr.hr1-edit{
 
-    border-bottom: #2e87c7;
+    border-bottom: #b0b0b0;
     margin-top: 1.5%;
   
   }
   hr.hr2-edit{
 
-    border-bottom: #2e87c7;
-    margin-top: 2%;
+    border-bottom: #b0b0b0;
+    width: 300px;
+ color: #b0b0b0;  
 
   }
   .grid-container2-edit{
@@ -1071,15 +1081,22 @@ text-transform: uppercase
   }
   .img1-edit{
 
-    border-radius: 100px;
+   
     display: inline-block;
     position: relative;
-    left: 25%;
-    height: 100px;
-    width: 100px;
+    margin-top: 40px; 
+
+      border-radius: 100px;
+      margin-left: 20%;
+
+      height: 200px;
+      width: 200px;
+    
   }
-  i.fa-pencil-edit{
+  i.fa-pencil{
     float: right;
+    color: grey;
+    font-size: 20px;
   }
   .grid-item2-edit.i{
 
@@ -1089,13 +1106,29 @@ text-transform: uppercase
   }
 
   .edit1{
-    text-align: center;
+    
+    font-size: 35px;
+ padding-left: 120px;
+ margin-top: 20px;
   }
   .edit2{
-    font-size: 24px;
+    
+    font-size: 15px !important;
   }
   .edit3{
-    font-size:48px; 
+   
     float: right;
-    margin-top: 60px;
+    margin-top: 40%;
+  }
+  .edit6{
+    margin-left: 20px;
+    font-size: 15px;
+  }
+    .edit7{
+    font-size:15px; 
+   
+       color: #004066;
+font-weight: bold;
+text-transform: uppercase;
+
   }
