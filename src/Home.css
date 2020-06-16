@@ -862,7 +862,20 @@ text-transform: uppercase;
   /*navbar*/
 
 
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color:#FCF9F2;
+}
 
+.flex-container > div {
+  background-color: #FCF9F2;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+
+  font-size: 30px;
+}
 
 
 
@@ -885,13 +898,13 @@ text-transform: uppercase;
 }
 
 .topnav a:hover {
-  font-size: 200%;
+  font-size: 100%;
   color: black;
    text-shadow: 3px 3px 5px #ada8a8;
 }
 
 .topnav a.active {
-font-size: 200%;
+font-size: 100%;
 font-weight: bold;
 text-transform: uppercase;
  text-shadow: 3px 3px 5px #ada8a8;
@@ -1050,7 +1063,7 @@ text-transform: uppercase
 font-weight: bold;
 text-transform: uppercase;
     position: relative;
-    margin-top: 40px; 
+    margin-top: 10%; 
   }
    .edit5{
 
