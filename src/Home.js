@@ -42,27 +42,30 @@ class Home extends Component{
 
 <section>
 
- <div className="topnav">
 
-  
-  <div className="topnav-centered">
-    <a href="/Home" className="active">Home</a>
-  </div>
+ <div className="topnav">
+ <div className="flex-container">
   
  
-   <a href="/Edit">Log in</a>
-   <a href="/Profile">About</a>
-   <a href="#">Categories</a>
  
-  <div className="topnav-right">
+   <div><a href="#">Categories</a> </div>
+
+
+   <div><a href="/Edit">Log in</a></div>
+   <div><a href="/Profile">About</a></div>
+   <div><a href="/Home" className="active">Home</a></div>
+
+ 
    
-     <a href="/Blog" >BLOG</a>
-                                <a href="#">Contact</a>
-                                <a href="#" className="fa fa-search"></a> 
-                                 
-  </div>
+     <div><a href="/Blog" >BLOG</a></div>
+                               <div> <a href="#">Contact</a></div>
+                               <div> <a href="#" className="fa fa-search"></a> </div>
+                             
+   </div>
   <a href="javascript:void(0);" className="icon" onclick="Sharad()"><i className="fa fa-bars"></i></a>
+
 </div>
+
 </section>
 
         
@@ -106,8 +109,8 @@ class Home extends Component{
 <br />
 <br />
 
-<section className="test2">
-<table>
+<section className="">
+
 
 <div className="grid-container_featured">
     <div className="grid-item1">FEATURED</div>
@@ -294,7 +297,7 @@ class Home extends Component{
   </div>
 
 </div>
-</table>
+
 
 
 
@@ -462,7 +465,7 @@ class Home extends Component{
 
 <section>
   <br />
-    <div className="container">
+    <div className="container-fluid">
        
 
 
@@ -489,7 +492,7 @@ class Home extends Component{
 <br />
 
 <section>
-  <div className="container">
+  <div className="container-fluid">
        
 
 
