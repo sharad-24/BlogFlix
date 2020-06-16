@@ -39,6 +39,7 @@ class Edit extends Component{
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <body className="colour">
 
 <section>
 
@@ -69,24 +70,24 @@ class Edit extends Component{
 
 
 
-
+<div className="container">
+<div className="row">
 
 <div className="editmain">
-
- 
-<div className="left-edit">
-
+<div className="col-xs-6 col-md-4">
     <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.jfif')} className="img1-edit" />
-    <h3 className="edit1">NAME <i className="fa fa-pencil-edit"></i></h3>
+ 
+    <h3 className="edit1">NAME <i className="fa fa-pencil"></i></h3>
+
     <hr className="hr2-edit" />
 
 
 
 </div>
 
-<div className="right-edit">
+<div className="col-xs-12 col-md-8">
 
-    <h className="edit4">BI0 <i className="fa fa-pencil-edit"></i></h>
+    <h className="edit4">BIO <i className="fa fa-pencil"></i></h>
     <hr className="hr1-edit" />
     <p className="edit5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -101,19 +102,19 @@ class Edit extends Component{
     <div className="grid-container2-edit">
 
         <div  className="grid-item2-edit">
-        <p> <i className="fa edit2">&#xf16d;</i> https://www.instagram.com/loremipsum/ <i className="fa fa-pencil"></i></p>
+        <p> <i className="fa fa-instagram edit2"></i><a className="edit6"> https://www.instagram.com/loremipsum/</a> <i className="fa fa-pencil"></i></p>
+       <hr className="hr2-edit" />
+        </div>
+        <div  className="grid-item2-edit">
+        <p> <i className="fa fa-linkedin edit2"></i><a className="edit6"> https://www.linkedin.com/loremipsum-3568a058/</a>  &nbsp;&nbsp;<i class="fa fa-pencil"></i></p>
         <hr className="hr2-edit" />
         </div>
         <div  className="grid-item2-edit">
-        <p> <i className="fa edit2">&#xf08c;</i> https://www.linkedin.com/loremipsum-3568a058/ &nbsp;&nbsp;<i class="fa fa-pencil"></i></p>
+        <p> <i className="fa fa-github edit2"></i><a className="edit6"> https://github.com/loremipsum/</a>  <i class="fa fa-pencil"></i></p>
         <hr className="hr2-edit" />
         </div>
         <div  className="grid-item2-edit">
-        <p> <i className="fa edit2">&#xf09b;</i> https://github.com/loremipsum/ <i class="fa fa-pencil"></i></p>
-        <hr className="hr2-edit" />
-        </div>
-        <div  className="grid-item2-edit">
-        <p> <i class="fa edit2">&#xf082;</i> https://www.facebook.com/loremipsum/ <i class="fa fa-pencil"></i></p>
+        <p> <i class="fa fa-facebook edit2"></i><a className="edit6"> https://www.facebook.com/loremipsum/ </a> <i class="fa fa-pencil"></i></p>
         <hr className="hr2-edit" />
 
         </div>
@@ -121,7 +122,11 @@ class Edit extends Component{
 
 
     </div>
-<i className="fa fa-5x edit3">&#xf055;</i>
+    <div className="edit3">
+<i className="fa fa-5x">&#xf055;</i>
+<p className="edit7">NEW BLOG</p>
+</div>
+
 </div>
 
 
@@ -129,19 +134,12 @@ class Edit extends Component{
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
+</div>
+</div>
 
 
 <section>
+
   <br />
     <div className="container">
        
@@ -156,7 +154,8 @@ class Edit extends Component{
 </div>
 </div>
 </section>
-
+<hr className=".col-xs-6 mx-auto pt-0.9 footer1"/>
+<br />
 <section>
  <div className="container">
        
@@ -211,7 +210,7 @@ class Edit extends Component{
 
 
 
-
+</body>
 
      </html>
 
