@@ -78,8 +78,9 @@ class Profile extends Component{
 </div>
 
 </section>
-        
-<div className="left-profile">
+        <div className="container">
+        <div className="row">
+<div className="col-xs-6 col-md-4 profile">
     <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.jfif')} className="img1-profile" />
     <h5 className="sharad-profile">LOREM IPSUM</h5>
     <p className="text-p">
@@ -97,15 +98,14 @@ class Profile extends Component{
 
   </div>
 
-  <div className="right-profile">
+  <div className="col-xs-12 col-md-8">
     <h5 className="sharad3-profile">MY BLOGS</h5>
     <div className="grid-container-profile">
       <div className="grid-item-profile">
 
         <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.jfif')} align="right" className="img2-profile" />
-        <button className="b1-profile">Category</button>
-        <br />
-        <br />
+       
+     
 
         <h6>Lorem ipsum dolor sit amet, consectetur adipisicing</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -118,9 +118,8 @@ class Profile extends Component{
       <div className="grid-item-profile">
         
         <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.jfif')} align="right" className="img2-profile" />
-        <button className="b1-profile">Category</button>
-          <br />
-        <br />
+      
+        
         <h6>Lorem ipsum dolor sit amet, consectetur adipisicing</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -132,9 +131,7 @@ class Profile extends Component{
       <div className="grid-item-profile">
       
         <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.jfif')} align="right" className="img2-profile" />
-        <button className="b1-profile">Category</button>
-          <br />
-        <br />
+       
         <h6>Lorem ipsum dolor sit amet, consectetur adipisicing</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -145,7 +142,8 @@ class Profile extends Component{
   </div>
 
 </div>
-
+</div>
+</div>
 
 <section>
 
