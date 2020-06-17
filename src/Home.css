@@ -83,7 +83,7 @@ border-radius: 100%;
 
 .footer1{
     background-color:  #004066; 
-    width: 85%; 
+    width: 100%; 
     margin: 0px !important;
 }
 
@@ -291,7 +291,17 @@ overflow-x:auto;
             
             color: #004066;
 
+
         }
+        div.b {
+  white-space: nowrap; 
+  max-width: 59ch; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+
+  
+}
+
         .button6{
 
             display: inline-block;
@@ -571,14 +581,14 @@ position: relative;
     .img1-profile{
 
       border-radius: 100px;
-      margin-left: 20%;
+      margin-left: 30%;
 
       height: 200px;
       width: 200px;
     }
     .img2-profile{
 
-      height:110px;
+      height:90px;
       width: 120px;
 
     }
@@ -904,6 +914,7 @@ text-transform: uppercase;
 }
 
 .topnav a.active {
+
 font-size: 100%;
 font-weight: bold;
 text-transform: uppercase;
@@ -1100,7 +1111,7 @@ text-transform: uppercase;
     margin-top: 40px; 
 
       border-radius: 100px;
-      margin-left: 20%;
+      margin-left: 30%;
 
       height: 200px;
       width: 200px;
@@ -1121,7 +1132,8 @@ text-transform: uppercase;
   .edit1{
     
     font-size: 35px;
- padding-left: 120px;
+ /*padding-left: 40%;*/
+ text-align: center;
  margin-top: 20px;
   }
   .edit2{
@@ -1134,8 +1146,8 @@ text-transform: uppercase;
     margin-top: 40%;
   }
   .edit6{
-    margin-left: 20px;
-    font-size: 15px;
+    text-align: center;
+    font-size: 19px;
   }
     .edit7{
     font-size:15px; 
@@ -1145,3 +1157,46 @@ font-weight: bold;
 text-transform: uppercase;
 
   }
+
+
+
+
+.thumbnail_container {
+  background-color: #FCF9F2!important;
+     position: relative;
+     width: 100%;
+     padding-bottom: 0%;
+     padding-top: 0%!important; 
+     
+}
+
+.thumbnail {
+   background-color: #FCF9F2!important;
+   border: none!important;
+   padding-bottom: 0%!important;
+    position:relative;
+    width:100%;
+    height:100%;
+    padding-left:100px;
+    padding-right:100px;
+    align-items: top;
+
+
+}
+.thumbnail img {
+
+
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.thumbnail img{
+    height:100%;
+    /*width:100%;*/
+    max-width: 20px;
+    border-radius: 50%;
+}
