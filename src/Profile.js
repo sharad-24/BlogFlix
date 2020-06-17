@@ -53,35 +53,43 @@ class Profile extends Component{
 
 
 <body className="colour">
+
 <section>
 
- <div className="topnav">
 
-  
-  <div className="topnav-centered">
-    <a href="/Profile" className="active">About</a>
-  </div>
+ <div className="topnav">
+ <div className="flex-container">
   
  
-   <a href="/Edit">Log in</a>
-   <a href="/Home">Home</a>
-   <a href="#">Categories</a>
  
-  <div className="topnav-right">
+   <div><a href="#">Categories</a> </div>
+
+
+   <div><a href="/Home">Home</a></div>
+   <div><a href="/Edit">Log in</a></div>
+   <div><a href="/About" className="active">About</a></div>
+
+ 
    
-     <a href="/Blog" >BLOG</a>
-                                <a href="#">Contact</a>
-                                <a href="#" className="fa fa-search"></a> 
-                                <a href="javascript:void(0);" className="icon" onclick="Sharad()"><i className="fa fa-bars"></i></a>
+     <div><a href="/Blog" >BLOG</a></div>
+                               <div> <a href="#">Contact</a></div>
+                               <div> <a href="#" className="fa fa-search"></a> </div>
+                             
+ 
+  <a href="javascript:void(0);" className="icon" onclick="Sharad()"><i className="fa fa-bars"></i></a>
   </div>
-  
 </div>
 
 </section>
-        <div className="container">
+
+        <div className="container-fluid">
         <div className="row">
-<div className="col-xs-6 col-md-4 profile">
-    <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.jfif')} className="img1-profile" />
+<div className="col-xs-12 col-md-4 profile">
+ <div className="thumbnail_container">
+      <div className="thumbnail">
+    <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.jfif')} className="" />
+    </div>
+    </div>
     <h5 className="sharad-profile">LOREM IPSUM</h5>
     <p className="text-p">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -173,14 +181,15 @@ class Profile extends Component{
 <br/>
 
 <section>
- <div className="container">
+  <br />
+    <div className="container-fluid">
        
 
 
-      <div className="row footer2">
+      <div className="row align-items-center footer3">
     
   <div  className= "col-md-6 footer5">
-    <h className="footer3 footer6">
+    <h className="footer6">
      Terms of Use  |  Privacy Policy  |  Cookies
    </h>
   
@@ -196,12 +205,16 @@ class Profile extends Component{
    
 </div>
 </div>
-  <div className="container footer4">
+</section>
+<br />
+
+<section>
+  <div className="container-fluid">
        
 
 
-        <div className="row footer3">
-    <div className="footer5">
+        <div className="row  align-items-center footer3">
+    <div className=" col-md-12 footer5">
     <h className="footer6">
      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur . Excepteur sint occaecat cupidatat non  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
    </h>
