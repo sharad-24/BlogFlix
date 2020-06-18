@@ -21,7 +21,7 @@ class Blog extends Component{
 		render(){
 		return(
 
-<div className="Blog colour">
+<div className="Blog main colour">
 
 
 
@@ -225,10 +225,59 @@ class Blog extends Component{
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 
   </p>
+<div className="col-md-12">
+<h1 className="blog-test"> SHARE
+  <i className="fa fa-instagram sharad2-blog"></i>
+<i className="fa fa-linkedin sharad2-blog"></i>
+<i className="fa fa-github sharad2-blog"></i>
+<i className="fa fa-facebook sharad2-blog"></i>
+<i className="fa fa-twitter sharad2-blog"></i>
+<i className="fa fa-youtube sharad2-blog"></i>
+</h1>
+</div>
+<br/>
+<div className="col-md-12">
+<h1 className=" blog-test3"> COMMENTS </h1>
+
+<div className="grid-container-profile">
+      <div className="grid-item-profile">
+
+       
+     
+
+        <h6>Lorem ipsum dolor sit amet, consectetur adipisicing</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+        
+
+      </div>
+
+      <div className="grid-item-profile">
+        
+       
+      
+        
+        <h6>Lorem ipsum dolor sit amet, consectetur adipisicing</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+       
+
+      </div>
+      </div>
+
+
+</div>
+
 
 
 
  </div>
+
+
+
+
 <div className="col-xs-12 col-md-2">
     
     <div className="aside1-blog">
@@ -291,7 +340,8 @@ class Blog extends Component{
 
 
 
-
+<br />
+<br />
 
 <section className="">
 
