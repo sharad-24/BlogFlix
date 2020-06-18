@@ -64,6 +64,10 @@ border-radius: 100%;
   background: #18446F;
   color: white;
 }
+.fa-youtube {
+  background: #18446F;
+  color: white;
+}
 
 .fa-twitter {
   background: #18446F;
@@ -639,6 +643,15 @@ text-transform: uppercase;
     padding: 205px 400px;
     margin-bottom: 20px;
 }
+.sharad2-blog{
+  /*margin-top: 40px;*/
+  margin-left: 90px;
+    padding: 15px;
+  font-size: 20px!important;
+  width: 50px;
+  float: right;
+
+}
    .button8{
            float: left;
             display: inline-block;
@@ -679,6 +692,12 @@ text-transform: uppercase;
           float: left;
           
         }
+          .blog-test3{
+          float: left;
+          margin-top: 30px;
+          
+        }
+
         .blog-test2{
           color: white;
           font-size: 20px;
