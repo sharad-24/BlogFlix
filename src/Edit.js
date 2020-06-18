@@ -40,52 +40,58 @@ class Edit extends Component{
     <link rel="stylesheet" href="responsive.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <body className="colour">
-
 <section>
 
+
  <div className="topnav">
+ <div className="flex-container">
+  
+ 
+ 
+   <div><a href="#">Categories</a> </div>
 
-  
-  <div className="topnav-centered">
-    <a href="/Edit" className="active">Log In</a>
-  </div>
-  
+
+   <div><a href="/Home">Home</a></div>
+   <div><a href="/Profile">About</a></div>
+   <div><a href="/Edit" className="active">Log in</a></div>
+
  
-   <a href="/Home">Home</a>
-   <a href="/Profile">About</a>
-   <a href="#">Categories</a>
- 
-  <div className="topnav-right">
    
-     <a href="/Blog" >BLOG</a>
-                                <a href="#">Contact</a>
-                                <a href="#" className="fa fa-search"></a> 
-
+     <div><a href="/Blog" >BLOG</a></div>
+                               <div> <a href="#">Contact</a></div>
+                               <div> <a href="#" className="fa fa-search"></a> </div>
+                             
+ 
+  <a href="javascript:void(0);" className="icon" onclick="Sharad()"><i className="fa fa-bars"></i></a>
   </div>
-   <a href="javascript:void(0);" className="icon" onclick="Sharad()"><i className="fa fa-bars"></i></a>
-  
 </div>
+
 </section>
 
 
 
 
-<div className="container">
+<div className="container-fluid">
 <div className="row">
 
 <div className="editmain">
-<div className="col-xs-6 col-md-4">
-    <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.jfif')} className="img1-edit" />
+<div className="col-md-4">
+ <div className="thumbnail_container">
+      <div className="thumbnail">
+          <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.jfif')} />
+      
  
     <h3 className="edit1">NAME <i className="fa fa-pencil"></i></h3>
 
     <hr className="hr2-edit" />
 
+   </div>
+    </div>
 
 
 </div>
 
-<div className="col-xs-12 col-md-8">
+<div className="col-md-8">
 
     <h className="edit4">BIO <i className="fa fa-pencil"></i></h>
     <hr className="hr1-edit" />
@@ -102,7 +108,7 @@ class Edit extends Component{
     <div className="grid-container2-edit">
 
         <div  className="grid-item2-edit">
-        <p> <i className="fa fa-instagram edit2"></i><a className="edit6"> https://www.instagram.com/loremipsum/</a> <i className="fa fa-pencil"></i></p>
+        <p> <i className="fa fa-instagram  edit2"></i><a className="edit6"> https://www.instagram.com/loremipsum/</a> <i className="fa fa-pencil"></i></p>
        <hr className="hr2-edit" />
         </div>
         <div  className="grid-item2-edit">
@@ -141,7 +147,7 @@ class Edit extends Component{
 <section>
 
   <br />
-    <div className="container">
+    <div className="container-fluid">
        
 
 
@@ -157,14 +163,15 @@ class Edit extends Component{
 <hr className=".col-xs-6 mx-auto pt-0.9 footer1"/>
 <br />
 <section>
- <div className="container">
+  <br />
+    <div className="container-fluid">
        
 
 
-      <div className="row align-items-center footer2">
+      <div className="row align-items-center footer3">
     
   <div  className= "col-md-6 footer5">
-    <h className="footer3 footer6">
+    <h className="footer6">
      Terms of Use  |  Privacy Policy  |  Cookies
    </h>
   
@@ -180,20 +187,22 @@ class Edit extends Component{
    
 </div>
 </div>
-  <div className="container footer4">
+</section>
+<br />
+
+<section>
+  <div className="container-fluid">
        
 
 
-        <div className="row footer3">
-    <div className="footer5">
+        <div className="row  align-items-center footer3">
+    <div className=" col-md-12 footer5">
     <h className="footer6">
      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur . Excepteur sint occaecat cupidatat non  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
    </h>
   </div>
 </div>
   </div>
-  <br />
-  <br />
 </section>
 
 
