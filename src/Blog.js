@@ -27,28 +27,32 @@ class Blog extends Component{
 
 <section>
 
- <div className="topnav">
 
-  
-  <div className="topnav-centered">
-    <a href="/Blog" className="active">Blog</a>
-  </div>
+ <div className="topnav">
+ <div className="flex-container">
   
  
-   <a href="/Edit">Log in</a>
-   <a href="/Profile">About</a>
-   <a href="#">Categories</a>
  
-  <div className="topnav-right">
+   <div><a href="#">Categories</a> </div>
+
+
+   <div><a href="/Edit">Log in</a></div>
+   <div><a href="/Profile">About</a></div>
+   <div><a href="/Blog" className="active">Blog</a></div>
+
+ 
    
-     <a href="/Home" >HOME</a>
-                                <a href="#">Contact</a>
-                                <a href="#" className="fa fa-search"></a> 
-                                <a href="javascript:void(0);" className="icon" onclick="Sharad()"><i className="fa fa-bars"></i></a>
-  </div>
-  
+     <div><a href="/Home" >Home</a></div>
+                               <div> <a href="#">Contact</a></div>
+                               <div> <a href="#" className="fa fa-search"></a> </div>
+                             
+   </div>
+  <a href="javascript:void(0);" className="icon" onclick="Sharad()"><i className="fa fa-bars"></i></a>
+
 </div>
+
 </section>
+
         <section className="test2">
         <table>
          <div className="bg-text-area">
@@ -67,12 +71,24 @@ class Blog extends Component{
         </section>
 
      
+<div className="container-fluid">
+<div className="row">
+<div className="col-xs-12 col-md-1">
+</div>
 
-<section className="main test2">
-<table>
-
-  <h1>Lorem Ipsum Dolor</h1>
-  <p> By lorem</p>
+<div className="col-xs-12 col-md-8">
+ <button className="button8">
+        <a href="/Blog" style={{color: "#FFFFFF"}} >Subscribe</a>
+</button>
+<br/>
+<br/>
+<br/>
+  <h1 className="blog-test">Lorem Ipsum Dolor</h1>
+  <br/>
+<br/>
+<br/>
+  
+  <p className="blog-test"> By lorem</p>
 
 
   <p className="content-blog">
@@ -117,15 +133,23 @@ class Blog extends Component{
 
    
 
-  <figure className="images-blog">
-      <img src={require('./img/post-image6.jpg')} alt="" height= "300px" width= "150px" />
-      <figcaption>Lorem ipsum dolor</figcaption>
-  </figure>
+<div className="thumbnail1_container">
+      <div className="thumbnail1">
+      <img src={require('./img/post-image6.jpg')} alt=""/>
+      
+  </div>
+  </div>
+  <div className="thumbnail1_container">
+      <div className="thumbnail1">
+      <img src={require('./img/post-image7.jpg')} />
+  </div>
+  </div>
 
-  <figure className="images-blog">
-      <img src={require('./img/post-image7.jpg')} alt="" height= "300px" width= "150px" />
-      <figcaption>Lorem ipsum dolor</figcaption>
-  </figure>
+
+
+
+
+
 
   <p className="content-blog content22-blog">
     
@@ -169,15 +193,18 @@ class Blog extends Component{
 
   </p>
 
-  <figure className="images-blog">
-      <img src={require('./img/post-image9.jpg')} alt="" height= "300px" width= "150px" />
-      <figcaption>Lorem ipsum dolor</figcaption>
-  </figure>
+<div className="thumbnail1_container">
+      <div className="thumbnail1">
+      <img src={require('./img/post-image6.jpg')} alt=""/>
+      
+  </div>
+  </div>
+  <div className="thumbnail1_container">
+      <div className="thumbnail1">
+      <img src={require('./img/post-image7.jpg')} />
+  </div>
+  </div>
 
-  <figure className="images-blog">
-      <img src={require('./img/post-image6.jpg')} alt="" height= "300px" width= "150px" />
-      <figcaption>Lorem ipsum dolor</figcaption>
-  </figure>
 
   <p className="content-blog content22-blog">
     
@@ -198,13 +225,14 @@ class Blog extends Component{
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 
   </p>
-</table>
-</section>
 
-  <section className="aside test2">
-  <table>
+
+
+ </div>
+<div className="col-xs-12 col-md-2">
     
     <div className="aside1-blog">
+
       
     <img src={require('./img/post-image8.jpg')} />
 
@@ -253,12 +281,9 @@ class Blog extends Component{
 
     </div>
 
-</table>
-
-
-
-  </section>
-
+</div>
+</div>
+</div>
 
 
 
@@ -267,13 +292,22 @@ class Blog extends Component{
 
 
 
-<section className="sharad-blogg">
+
+<section className="">
 
 <h1>MORE LIKE THIS</h1>
-<div className="grid-container3-blog">
+<div className="container-fluid">
+<div className="row">
 
-  <div className="grid-item3-blog">
-  <img src={require('./img/pexels-photo-1034662.jpeg')} height="100" width="100" className="displayed-blog"/>
+  <div className="col-md-3 grid-item3-blog">
+  <img src={require('./img/pexels-photo-1034662.jpeg')}className="displayed-blog"/>
+
+   <button className="button9">
+        <a href="/Blog" style={{color: "#FFFFFF"}} >Subscribe</a>
+</button>
+<br/>
+<br/>
+<br/>
       <p className="p1">Lorem ipsum</p>
     <p className="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt</p>
@@ -284,8 +318,14 @@ class Blog extends Component{
     </button>
 
   </div>
-  <div className="grid-item3-blog">
-    <img src={require('./img/pexels-photo-1034662.jpeg')} height="100" width="120" className="displayed-blog" />
+  <div className="col-md-3 grid-item3-blog">
+    <img src={require('./img/pexels-photo-1034662.jpeg')} className="displayed-blog" />
+     <button className="button9">
+        <a href="/Blog" style={{color: "#FFFFFF"}} >Subscribe</a>
+</button>
+<br/>
+<br/>
+<br/>
       <p className="p1">Lorem ipsum</p>
     <p className="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt</p>
@@ -296,8 +336,14 @@ class Blog extends Component{
     </button>
 
   </div>
-  <div className="grid-item3-blog">  
-    <img src={require('./img/pexels-photo-1034662.jpeg')} height="100" width="100" className="displayed-blog" />
+  <div className="col-md-3 grid-item3-blog">  
+    <img src={require('./img/pexels-photo-1034662.jpeg')} className="displayed-blog" />
+     <button className="button9">
+        <a href="/Blog" style={{color: "#FFFFFF"}} >Subscribe</a>
+</button>
+<br/>
+<br/>
+<br/>
     <p className="p1">Lorem ipsum</p>
     <p className="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt</p>
@@ -309,41 +355,46 @@ class Blog extends Component{
 
   </div>
 </div>
+</div>
 </section>
-                            <section className="joinus">
+                           <section className="joinus">
     <div className="row cont h-100">
-        <div className="col-md-7 my-auto">
-            <p className="headin">Join Our Community</p>
-            <p className="head_cont">
-                Lorem ipsum dolor sit amet, consectetur adipiscing  elit,
-                sed do eiusmod tempor incididunt ut labore et  dolore magna aliqua. 
-                Ut enim ad minim veniam, quis  nostrud exercitation ullamco laboris nisi ut 
-                aliquip ex  ea commodo consequat.
-            </p>
+        <div className="col-md-8 my-auto">
+       <p className="headin2" >BECOME NEWSLETTER</p>
+            <p className="headin">Join Our Community Today and Stay Updated!!</p>
+            <p className="headin2" >receive our newsletter now</p>
+           
+           
         </div>
         <div className="col-md-4 my-auto">
             <form className="Login">
                 <input className="box1" type="text" name="" placeholder="Name" /><br />
                 <input className="box1" type="text" name="" placeholder="Email" /><br />
-                <button className="join" type="button">Join</button>
+                 <button className="join" type="button">Join</button>
+                
             </form>
         </div>
     </div>
 </section>
+<br/>
+<br/>
 
 <hr className=".col-xs-6 mx-auto pt-0.9 footer1"/>
 
 
-<section className="">
+
+<section>
   <br />
-    <div className="container footer2">
+    <div className="container-fluid">
        
 
 
-      <div className="row align-items-center footer2">
+      <div className="row align-items-center footer3">
     
   <div  className= "col-md-6 footer5">
-    <p className="footer3 footer6">Terms of Use  |  Privacy Policy  |  Cookies</p>
+    <h className="footer6">
+     Terms of Use  |  Privacy Policy  |  Cookies
+   </h>
   
  
 
@@ -358,17 +409,18 @@ class Blog extends Component{
 </div>
 </div>
 </section>
+<br />
 
-<section className="">
-  <div className="container footer4">
+<section>
+  <div className="container-fluid">
        
 
 
-        <div className="row footer3">
-    <div className="footer5">
-    <p className="footer6">
+        <div className="row  align-items-center footer3">
+    <div className=" col-md-12 footer5">
+    <h className="footer6">
      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur . Excepteur sint occaecat cupidatat non  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-   </p>
+   </h>
   </div>
 </div>
   </div>
