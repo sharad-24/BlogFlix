@@ -25,7 +25,7 @@ class Home extends Component{
 
 <div className="Home colour">
 
-<html lang="en" className="colour">
+<html className="main colour">
  <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Front page</title>
@@ -127,9 +127,10 @@ class Home extends Component{
         <h4>Lorem&nbsp;ipsum</h4>
 
         <p>
+        <div className="b">
           
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmor
-
+</div>
         </p>
 <button className="button6">
         <a href="/Blog" style={{color: "#FFFFFF"}} >Start</a>
@@ -152,7 +153,10 @@ class Home extends Component{
 
         <p>
           
+            <div className="b">
+          
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmor
+</div>
 
         </p>
 
@@ -177,7 +181,10 @@ class Home extends Component{
 
         <p>
           
+            <div className="b">
+          
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmor
+</div>
 
         </p>
 
@@ -202,7 +209,10 @@ class Home extends Component{
 
         <p>
           
+            <div className="b">
+          
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmor
+</div>
 
         </p>
 
@@ -226,7 +236,10 @@ class Home extends Component{
 
         <p>
           
+            <div className="b">
+          
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmor
+</div>
 
         </p>
 
@@ -400,13 +413,14 @@ class Home extends Component{
        <p className="headin2" >BECOME NEWSLETTER</p>
             <p className="headin">Join Our Community Today and Stay Updated!!</p>
             <p className="headin2" >receive our newsletter now</p>
-            <button className="join" type="button">Join</button>
+            
            
         </div>
         <div className="col-md-4 my-auto">
             <form className="Login">
                 <input className="box1" type="text" name="" placeholder="Name" /><br />
                 <input className="box1" type="text" name="" placeholder="Email" /><br />
+                <button className="join" type="button">Join</button>
                 
             </form>
         </div>
