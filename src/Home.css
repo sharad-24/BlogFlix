@@ -39,6 +39,8 @@
 }
 .colour{
     background-color: #FCF9F2; 
+    width: 100%;
+    height: 100%;
 }
 
 .slider-container {
@@ -48,7 +50,7 @@
 
    .fa {
 border-radius: 100%;
-  padding: 20px;
+  
   font-size: 30px;
   width: 55px;
   text-align: center;
@@ -61,29 +63,35 @@ border-radius: 100%;
 }
 
 .fa-facebook {
+  padding: 20px;
   background: #18446F;
   color: white;
 }
 .fa-youtube {
+  padding: 20px;
   background: #18446F;
   color: white;
 }
 
 .fa-twitter {
+  padding: 20px;
   background: #18446F;
   color: white;
 }
 .fa-github {
+  padding: 20px;
   background: #18446F;
   color: white;
 }
 
 .fa-instagram {
+  padding: 20px;
   background: #18446F;
   color: white;
 }
 
 .fa-linkedin {
+  padding: 20px;
   background: #18446F;
   color: white;
 }
@@ -1143,6 +1151,7 @@ text-transform: uppercase;
 
   }
   .grid-container2-edit{
+    margin-top: 40px;
 
     grid-template-rows: auto auto auto auto;
     float: left;
@@ -1165,6 +1174,7 @@ text-transform: uppercase;
     
   }
   i.fa-pencil{
+    padding: 20px;
     float: right;
     color: grey;
     font-size: 20px;
@@ -1181,6 +1191,7 @@ text-transform: uppercase;
     font-size: 35px;
  /*padding-left: 40%;*/
  text-align: center;
+ margin-left: 50px;
  margin-top: 20px;
   }
   .edit2{
@@ -1190,7 +1201,7 @@ text-transform: uppercase;
   .edit3{
    
     float: right;
-    margin-top: 40%;
+    
   }
   .edit6{
     text-align: center;
@@ -1277,4 +1288,65 @@ text-transform: uppercase;
     /*width:100%;*/
     max-width: 800px!important;
     max-height:100%!important; 
+}
+
+
+
+
+/*NEW BLOG SECTION*/
+
+
+
+  .new1{
+    
+    font-size: 15px;
+ /*padding-left: 40%;*/
+  }
+
+    hr.hr2-new{
+float: top;
+   
+    width: 500px;
+ color: #b0b0b0;
+ font-weight: bold;   
+
+  }
+
+ span .fa-pencil{
+  text-align: right;
+  margin-left: 20%!important; 
+
+     color: grey;
+    font-size: 20px;
+  }
+
+      .grid-container-new{
+      margin-top: 20px;
+      width: 100%;
+
+      
+
+    }
+    .grid-item-new{
+      
+      background-color: white;
+      padding-bottom: 1000px;
+      margin-bottom: 20px;
+      
+      box-shadow: 10px 5px 10px #aaaaaa;
+    }
+    .join-new{
+  float: right;
+  border: none;
+  background-color: #5DC5FD;
+  width: 120px;
+  padding: 0.8vw;
+  font-size: 1.2vw;
+  color: white;
+  font-weight: bold;
+  font-family: Open Sans;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right:120px;
 }
