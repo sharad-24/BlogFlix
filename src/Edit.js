@@ -69,73 +69,93 @@ class Edit extends Component{
 </section>
 
 
-
-
 <div className="container-fluid">
-<div className="row">
+              <div className="col-md-4">
+                <div className="editmain">
+                  <div className="thumbnail_container">
+                    <div className="thumbnail">
+                      <img
+                        src={require("./img/389-3894980_photo-kermit-the-frog-transparent.jfif")}
+                      />
 
-<div className="editmain">
-<div className="col-md-4">
- <div className="thumbnail_container">
-      <div className="thumbnail">
-          <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.jfif')} />
-      
- 
-    <h3 className="edit1">NAME <i className="fa fa-pencil"></i></h3>
+                      <h3 className="edit1">
+                        NAME <i className="fa fa-pencil"></i>
+                      </h3>
 
-    <hr className="hr2-edit" />
+                      <hr className="hr2-edit" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-8">
+                <h className="edit4">
+                  BIO <i className="fa fa-pencil"></i>
+                </h>
+                <hr className="hr1-edit" />
+                <div className="row">
+                  <p className="edit5">
+                    Lorem ipsum dolor sit amet, Lorem ipsum dolor sit  Lorem ipsum dolor sit amet, Lorem ipsum dolor sit 
+                  </p>
+                </div>
+                <div className="grid-container2-edit">
+                  <div className="grid-item2-edit">
+                    <p>
+                      {" "}
+                      <i className="fa fa-instagram  edit2"></i>
+                      <a className="edit6">
+                        {" "}
+                        https://www.instagram.com/loremipsum/
+                      </a>{" "}
+                      <i className="fa fa-pencil"></i>
+                    </p>
+                    <hr className="hr2-edit" />
+                  </div>
+                  <div className="grid-item2-edit">
+                    <p>
+                      {" "}
+                      <i className="fa fa-linkedin edit2"></i>
+                      <a className="edit6">
+                        {" "}
+                        https://www.linkedin.com/loremipsum-3568a058/
+                      </a>{" "}
+                      &nbsp;&nbsp;<i class="fa fa-pencil"></i>
+                    </p>
+                    <hr className="hr2-edit" />
+                  </div>
+                  <div className="grid-item2-edit">
+                    <p>
+                      {" "}
+                      <i className="fa fa-github edit2"></i>
+                      <a className="edit6">
+                        {" "}
+                        https://github.com/loremipsum/
+                      </a>{" "}
+                      <i class="fa fa-pencil"></i>
+                    </p>
+                    <hr className="hr2-edit" />
+                  </div>
+                  <div className="grid-item2-edit">
+                    <p>
+                      {" "}
+                      <i class="fa fa-facebook edit2"></i>
+                      <a className="edit6">
+                        {" "}
+                        https://www.facebook.com/loremipsum/{" "}
+                      </a>{" "}
+                      <i class="fa fa-pencil"></i>
+                    </p>
+                    <hr className="hr2-edit" />
+                  </div>
+                </div>
+              </div>
+            </div>
 
-   </div>
-    </div>
-
-
-</div>
-
-
-
-
-<div className="col-md-8">
-
-    <h className="edit4">BIO <i className="fa fa-pencil"></i></h>
-    <hr className="hr1-edit" />
-    <div className="col-md-12">
-    <p className="edit5">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet</p>
-</div>
-
-<div className="col-md-12">
-
-    <div className="grid-container2-edit">
-
-        <div  className="grid-item2-edit">
-        <p> <i className="fa fa-instagram  edit2"></i><a className="edit6"> https://www.instagram.com/loremipsum/</a> <i className="fa fa-pencil"></i></p>
-       <hr className="hr2-edit" />
-        </div>
-        <div  className="grid-item2-edit">
-        <p> <i className="fa fa-linkedin edit2"></i><a className="edit6"> https://www.linkedin.com/loremipsum-3568a058/</a>  &nbsp;&nbsp;<i class="fa fa-pencil"></i></p>
-        <hr className="hr2-edit" />
-        </div>
-        <div  className="grid-item2-edit">
-        <p> <i className="fa fa-github edit2"></i><a className="edit6"> https://github.com/loremipsum/</a>  <i class="fa fa-pencil"></i></p>
-        <hr className="hr2-edit" />
-        </div>
-        <div  className="grid-item2-edit">
-        <p> <i class="fa fa-facebook edit2"></i><a className="edit6"> https://www.facebook.com/loremipsum/ </a> <i class="fa fa-pencil"></i></p>
-        <hr className="hr2-edit" />
-
-        </div>
-       
-
-
-    </div>
-    </div>
-    </div>
-</div>
 <div className="container-fluid">
 <div className="row">
 <div className="col-md-12">
 
     <div className="edit3">
-<i className="fa fa-5x">&#xf055;</i>
+<a className="edit11" href="/New"><i className="fa fa-5x">&#xf055;</i></a>
 <p className="edit7">NEW BLOG</p>
 </div>
 </div>
@@ -146,8 +166,7 @@ class Edit extends Component{
 </div>
 
 
- </div>
-    </div>
+
 
 
 <section>
