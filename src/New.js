@@ -8,6 +8,7 @@ import './css/owl.carousel.min.css';
 import './css/owl.theme.default.min.css';
 import './css/unslider.css';
 import './css/responsive.css';
+import Test from './Test';
 
 import Sharad from './Nav';
 
@@ -23,22 +24,9 @@ class New extends Component{
         render(){
         return(
 
-<div className="New colour">
+<div className="New main colour">
 
-<html lang="en" className="main colour">
- <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Front page</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet" />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+ 
     <body className="colour">
 <section>
 
@@ -77,23 +65,37 @@ class New extends Component{
 <h1 className="blog-test"> CREATE NEW BLOG </h1>
 
 </div>
+</div>
+</div>
+<div className="container-fluid">
+<div className="row">
 
-
-
-<div className="col-md-12">
-<p className="new1" > Add a title <span className="fa fa-pencil"><hr className="hr2-new" /></span> </p>
-
+<div className="col-md-1">
+<p className="new1" > Add a title </p>
+</div>
+<div className="col-md-4">
+<div className="new1">
+<Test/>
 
 </div>
-<div className="col-md-12">
-<p className="new1" > Add a discription <span className="fa fa-pencil"><hr className="hr2-new" /></span> </p>
-
-
+</div>
+</div>
 </div>
 
+<div className="container-fluid">
+<div className="row">
 
-    </div>
-    </div>
+<div className="col-md-1">
+<p className="new1" > Add a title </p>
+</div>
+<div className="col-md-4">
+<div className="new1">
+<Test/>
+
+</div>
+</div>
+</div>
+</div>
 
     <div className="container-fluid grid-container-new">
     <div className="row">
@@ -205,7 +207,7 @@ class New extends Component{
 
 </body>
 
-     </html>
+
 
 </div>
 

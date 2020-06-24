@@ -9,6 +9,8 @@ import './css/owl.theme.default.min.css';
 import './css/unslider.css';
 import './css/responsive.css';
 import Sharad from './Nav';
+import ContentBlog from './ContentBlog';
+import Profile2  from './Profile2';
 
 
 import "bootstrap/dist/css/bootstrap.css";
@@ -26,18 +28,7 @@ class Home extends Component{
 <div className="Home colour">
 
 <html className="main colour">
- <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Front page</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet" />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive.css" />
+ 
 
 
 <section>
@@ -48,7 +39,7 @@ class Home extends Component{
   
  
  
-   <div><a href="#">Categories</a> </div>
+   <div><a href="/Login">Categories</a> </div>
 
 
    <div><a href="/Edit">Log in</a></div>
@@ -58,8 +49,8 @@ class Home extends Component{
  
    
      <div><a href="/Blog" >BLOG</a></div>
-                               <div> <a href="#">Contact</a></div>
-                               <div> <a href="#" className="fa fa-search"></a> </div>
+                               <div> <a href="/New">Contact</a></div>
+                               <div> <a href="/ContentBlog" className="fa fa-search"></a> </div>
                              
    </div>
   <a href="javascript:void(0);" className="icon" onclick="Sharad()"><i className="fa fa-bars"></i></a>

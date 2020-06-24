@@ -94,7 +94,7 @@ class Edit extends Component{
                 <hr className="hr1-edit" />
                 <div className="row">
                   <p className="edit5">
-                    Lorem ipsum dolor sit amet, Lorem ipsum dolor sit  Lorem ipsum dolor sit amet, Lorem ipsum dolor sit 
+                    Lorem ipsum dolor sit amet, Lorem ipsum dolor sit  Lorem ipsum dolor sit amet,
                   </p>
                 </div>
                 <div className="grid-container2-edit">
