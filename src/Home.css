@@ -39,7 +39,7 @@
 }
 .colour{
     background-color: #FCF9F2; 
-    width: 100%;
+    width: 100%!important;
     height: 100%;
 }
 
@@ -247,8 +247,12 @@ table {
   width: 100%;
  
 }
+.element::-webkit-scrollbar { 
+                display: none; 
+            } 
 .test2{
 overflow-x:auto;
+
 }
 .y-overflow{
   overflow-y: auto;
@@ -269,8 +273,8 @@ overflow-x:auto;
             grid-column-gap: 25px;
             grid-row-gap: 30px;
             background-color: #FCF9F2;
-            margin: 5px 10px 10px 25px;
-            width: 70%;
+            margin: px 10px 10px 25px;
+            width: 100%;
            
 
         }
@@ -353,7 +357,7 @@ overflow-x:auto;
             grid-row-gap: 10px;
             background-color: #FCF9F2;
             margin: 5px 10px 10px 5px;
-            width: 20%;
+            width: 100%;
             /*position: absolute;
             right: 10px;
             top: 10px;*/
@@ -418,16 +422,6 @@ overflow-x:auto;
 
 
         }
-
-/*new*/
-
-
-
-
-
-
-
-
 
 
 

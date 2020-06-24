@@ -8,14 +8,39 @@ import './css/owl.carousel.min.css';
 import './css/owl.theme.default.min.css';
 import './css/unslider.css';
 import './css/responsive.css';
-
+import Comment from './Comment';
 import Sharad from './Nav';
-
+import Test from './Test';
 
 
 
 class Blog extends Component{
 
+ constructor(props){
+    super(props);
+    this.state = {
+      data: []
+    }
+  }
+
+
+  componentDidMount(){
+   
+    var tempArray=[];
+    var n=4;
+    for(var i=0; i<n;i++)
+    {
+      tempArray.push(<Comment/>);
+    
+  }
+
+this.setState({
+      data: tempArray
+    });
+
+
+}
+        
 		
 		
 		render(){
@@ -33,10 +58,10 @@ class Blog extends Component{
   
  
  
-   <div><a href="#">Categories</a> </div>
+   <div><a href="/Edit">Categories</a> </div>
 
 
-   <div><a href="/Edit">Log in</a></div>
+   <div><a href="/Login">Log in</a></div>
    <div><a href="/Profile">About</a></div>
    <div><a href="/Blog" className="active">Blog</a></div>
 
@@ -238,42 +263,37 @@ class Blog extends Component{
 <br/>
 <div className="col-md-12">
 <h1 className=" blog-test3"> COMMENTS </h1>
+</div>
 
+<div className="container-fluid">
+<div className="row">
+
+<div className="col-md-2">
+<p className="new1" >Add Comment</p>
+</div>
+<div className="col-md-4">
+<div className="new1">
+<Test/>
+
+</div>
+</div>
+<div className="col-md-12">
 <div className="grid-container-profile">
-      <div className="grid-item-profile">
-
-       
      
-
-        <h6>Lorem ipsum dolor sit amet, consectetur adipisicing</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-        
-
+  <div>
+     {this.state.data}
       </div>
-
-      <div className="grid-item-profile">
-        
-       
-      
-        
-        <h6>Lorem ipsum dolor sit amet, consectetur adipisicing</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-       
-
-      </div>
+     
       </div>
 
 
 </div>
+</div>
+</div>
+</div>
 
 
-
-
- </div>
+ 
 
 
 

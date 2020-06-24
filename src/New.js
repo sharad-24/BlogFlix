@@ -118,32 +118,6 @@ class New extends Component{
    
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <hr className=".col-xs-6 mx-auto pt-0.9 footer1"/>
 <br />
 <section>
@@ -190,19 +164,6 @@ class New extends Component{
   <br />
   <br />
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>

@@ -9,10 +9,6 @@ import './css/owl.theme.default.min.css';
 import './css/unslider.css';
 import './css/responsive.css';
 import Sharad from './Nav';
-import ContentBlog from './ContentBlog';
-import Profile2  from './Profile2';
-
-
 import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 import 'react-multi-carousel/lib/styles.css';
@@ -39,18 +35,18 @@ class Home extends Component{
   
  
  
-   <div><a href="/Login">Categories</a> </div>
+   <div><a href="/Edit">Categories</a> </div>
 
 
-   <div><a href="/Edit">Log in</a></div>
+   <div><a href="/Login">Log in</a></div>
    <div><a href="/Profile">About</a></div>
    <div><a href="/Home" className="active">Home</a></div>
 
  
    
      <div><a href="/Blog" >BLOG</a></div>
-                               <div> <a href="/New">Contact</a></div>
-                               <div> <a href="/ContentBlog" className="fa fa-search"></a> </div>
+                               <div> <a href="#">Contact</a></div>
+                               <div> <a href="#" className="fa fa-search"></a> </div>
                              
    </div>
   <a href="javascript:void(0);" className="icon" onclick="Sharad()"><i className="fa fa-bars"></i></a>
@@ -101,7 +97,10 @@ class Home extends Component{
 <br />
 
 <section className="">
-
+<div className="container-fluid">
+<div className="row">
+<div className="col-md-8 test2 element">
+<table>
 
 <div className="grid-container_featured">
     <div className="grid-item1">FEATURED</div>
@@ -240,8 +239,9 @@ class Home extends Component{
 
     </div>
     </div>
-
-
+</table>
+</div>
+<div className="col-md-4">
 
 <div className="grid-container_latest colour">
   <div className="grid-item_latest1">LATEST</div>
@@ -301,7 +301,9 @@ class Home extends Component{
   </div>
 
 </div>
-
+</div>
+</div>
+</div>
 
 
 

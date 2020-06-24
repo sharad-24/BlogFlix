@@ -9,7 +9,6 @@ import './css/owl.theme.default.min.css';
 import './css/unslider.css';
 import './css/responsive.css';
 import Sharad from './Nav';
-import ContentBlog from './ContentBlog';
 import Profile2 from './Profile2';
 
 
@@ -19,7 +18,30 @@ import 'react-multi-carousel/lib/styles.css';
 
 import {Bumbotron, Button, Carousel } from 'react-bootstrap'
 class Profile extends Component{
+ constructor(props){
+    super(props);
+    this.state = {
+      data: []
+    }
+  }
 
+
+  componentDidMount(){
+   
+    var tempArray=[];
+    var n=5;
+    for(var i=0; i<n;i++)
+    {
+      tempArray.push(<Profile2/>);
+    
+  }
+
+this.setState({
+      data: tempArray
+    });
+
+
+}
         
         
         render(){
@@ -27,21 +49,10 @@ class Profile extends Component{
 
 <div className="Profile">
 
-<html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-   <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Front page</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet" />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive.css" />
+
+ 
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
    
@@ -113,7 +124,7 @@ class Profile extends Component{
     <h5 className="sharad3-profile">MY BLOGS</h5>
     <div className="grid-container-profile">
     <div>
-     <ContentBlog/>
+     {this.state.data}
       </div>
       
   </div>
@@ -199,8 +210,7 @@ class Profile extends Component{
 
 </body>
 
-        </html>
-
+        
 </div>
 
 
