@@ -10,7 +10,7 @@ import './css/unslider.css';
 import './css/responsive.css';
 import Comment from './Comment';
 import Sharad from './Nav';
-import Test from './Test';
+import Test2 from './Test2';
 
 
 
@@ -271,14 +271,20 @@ this.setState({
 <div className="col-md-2">
 <p className="new1" >Add Comment</p>
 </div>
-<div className="col-md-4">
-<div className="new1">
-<Test/>
-
 </div>
 </div>
+<div className="container-fluid">
+<div className="row">
 <div className="col-md-12">
-<div className="grid-container-profile">
+<div className="grid-item-blog1">
+
+<Test2/>
+</div>
+</div>
+
+
+<div className="col-md-12">
+
      
   <div>
      {this.state.data}
@@ -287,7 +293,7 @@ this.setState({
       </div>
 
 
-</div>
+
 </div>
 </div>
 </div>
@@ -301,10 +307,12 @@ this.setState({
 <div className="col-xs-12 col-md-2">
     
     <div className="aside1-blog">
-
+ <div className="thumbnail2_container">
+      <div className="thumbnail2">
       
-    <img src={require('./img/post-image8.jpg')} />
-
+    <img src={require('./img/389-3894980_photo-kermit-the-frog-transparent.jfif')} />
+</div>
+</div>
     <h3>Lorem</h3>
 
     <p>

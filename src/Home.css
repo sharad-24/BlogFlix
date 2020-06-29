@@ -578,8 +578,111 @@ position: relative;
       
 
     }
+
+
+
     .grid-item-profile{
 
+      background-color: white;
+      padding: 20px;
+      margin: 10px;
+      box-shadow: 10px 5px 10px #aaaaaa;
+    }
+     .grid-container-categories{
+      margin-top: 70px;
+ margin-bottom: 70px;
+      
+
+    }
+
+
+
+    .grid-item-categories{
+
+      background-color: white;
+      padding: 20px;
+      margin: 10px;
+      box-shadow: 10px 5px 10px #aaaaaa;
+    }
+     .thumbnail_container-categories {
+ 
+     position: relative;
+     width: 100%;
+     padding-bottom: 0%;
+    
+     
+}
+
+.thumbnail-categories {
+  
+   border: none!important;
+   padding-bottom: 5%!important;
+    position:relative;
+    width:100%;
+    
+
+
+    align-items: top;
+
+
+}
+.thumbnail-categories img {
+
+
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.thumbnail-categories img{
+    height:30%;
+    /*width:100%;*/
+    width: 130px!important;
+   
+}
+ .b2-categories{
+
+      float: right;
+      border-radius: 50px;
+      padding: 5px 15px;
+      background-color: #76ccc2;
+      color: #01475e;
+      font-family: Open Sans;
+      font-weight: bold;
+      border: none;
+      text-align: center;
+      font-size: 16px;
+      margin-top: 105px;
+      margin-right: 10px;
+    }
+     @media only screen and (max-width: 600px) {
+       .b2-categories{
+
+      float: last;
+      border-radius: 50px;
+ 
+      background-color: #76ccc2;
+      color: #01475e;
+      font-family: Open Sans;
+      font-weight: bold;
+      border: none;
+      text-align: center;
+      font-size: 16px;
+     
+    }
+     }
+
+        .grid-container-blog1{
+      margin-top: 0px;
+
+      
+
+    }
+    .grid-item-blog1{
+margin-bottom: 20px;
       background-color: white;
       padding: 20px;
       margin: 10px;
@@ -761,6 +864,44 @@ text-transform: uppercase;
             border-top-width: 100px;
 
         }
+.thumbnail2_container {
+ 
+     position: relative;
+     width: 100%;
+     padding-bottom: -30%!important;
+     padding-top: 0%!important; 
+
+     
+}
+
+.thumbnail2 {
+   background-color: #FCF9F2!important;
+   border: none!important;
+   top: -80px;
+    position:relative;
+    width:100%;
+    height:100%;
+  
+
+
+}
+.thumbnail2 img {
+
+
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.thumbnail2 img{
+    height:100%;
+    width:100%;
+    
+    border-radius: 50%;
+}
 
 
         .aside1-blog>img{
@@ -768,7 +909,7 @@ text-transform: uppercase;
         display: block;
         align-items: center;
         border-radius: 50%;
-        height: 100%;
+        height: 100%!important;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
@@ -812,6 +953,17 @@ text-transform: uppercase;
             display: grid;
             grid-template-rows: auto auto auto;
         }
+        @media only screen and (max-width: 600px) {
+   .aside2-container-blog{
+
+            border-top: 5px solid #272075;
+            border-bottom: 5px solid #272075;
+            height: auto;
+            margin: 20px;
+            margin-top: -150%;
+
+}
+}
         .aside2-item-blog{
 
             height: auto;
@@ -919,7 +1071,27 @@ margin-left: 100px;
     }
   }
 
+  @media only screen and (max-width: 600px) {
 
+     .grid-container3-blog{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: auto; 
+    margin-left: 20px;
+padding-left: 20px;  
+  }
+  .grid-item3-blog{
+margin-left: 10px;
+     
+    font-family: Open Sans;
+    color: #006699;
+    padding: 10px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 3px 3px 5px #ada8a8;
+  }
+  }
 
   /*navbar*/
 
@@ -1459,7 +1631,52 @@ float: top;
  
   margin-left: 0px;
 }
-
+   .join-test2{
+  text-align: left;
+  border: none;
+  background-color: white;
+  width: 100%;
+  
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+  font-family: Open Sans;
+ 
+ 
+  margin-left: 0px;
+}
+  
 .test11{
   font-size: 20px;
+}
+
+
+    .join-test33{
+  text-align: center;
+  border: none;
+  background-color: white;
+  width: 100px;
+  
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  font-family: Open Sans;
+ 
+  margin-top: 10px;
+  margin-left: 0px;
+}
+    .join-test3{
+      position: relative;
+  text-align: left;
+  border: none;
+  background-color: white;
+  width: 100%;
+  
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+  font-family: Open Sans;
+ 
+ margin-top: -15px;
+  margin-left: 0px;
 }

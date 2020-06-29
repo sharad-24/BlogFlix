@@ -5,9 +5,9 @@ import Profile from './Profile';
 import Edit from './Edit';
 import New from './New';
 import Login from './Login';
-import Test from './Test';
 import Profile2 from './Profile2';
 import Comment from './Comment';
+import AllBlog from './AllBlog';
 
 
 import {BrowserRouter, Route, Switch } from 'react-router-dom';
@@ -27,6 +27,7 @@ function Routes() {
         <Route exact path="/Login" component= {Login} />
         <Route exact path="/Profile2" component= {Profile2} />
         <Route exact path="/Comment" component= {Comment} />
+        <Route exact path="/AllBlog" component= {AllBlog} />
         </Switch>
  
         </BrowserRouter>

@@ -12,7 +12,6 @@ import Sharad from './Nav';
 import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 import 'react-multi-carousel/lib/styles.css';
-
 import {Bumbotron, Button, Carousel } from 'react-bootstrap'
 class Home extends Component{
 
@@ -35,7 +34,7 @@ class Home extends Component{
   
  
  
-   <div><a href="/Edit">Categories</a> </div>
+   <div><a href="/AllBlog">Categories</a> </div>
 
 
    <div><a href="/Login">Log in</a></div>
@@ -45,7 +44,7 @@ class Home extends Component{
  
    
      <div><a href="/Blog" >BLOG</a></div>
-                               <div> <a href="#">Contact</a></div>
+                               <div> <a href="/Edit">Contact</a></div>
                                <div> <a href="#" className="fa fa-search"></a> </div>
                              
    </div>

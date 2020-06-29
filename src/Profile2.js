@@ -2,14 +2,14 @@
 
 import './Home.css';
 
-class Profile extends Component{
+class Profile2 extends Component{
 
         
         
         render(){
         return(
 
-<div className="Profile">
+<div className="Profile2">
 
  <div className="grid-item-profile">
 
@@ -39,4 +39,4 @@ class Profile extends Component{
 
     
 
-export default Profile;
+export default Profile2;
